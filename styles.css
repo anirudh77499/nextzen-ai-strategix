@@ -1,0 +1,160 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #afbabe;
+    color: #060610;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #b1b7bf;
+    color: rgb(20, 40, 81);
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+}
+
+.hero .tagline {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    background-color: #c07431;
+    color: rgb(243, 249, 250);
+    padding: 12px 25px;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: white;
+    color: #b4bac1;
+    border: 2px solid #224e79;
+}
+
+/* Navigation */
+.navbar {
+    background-color: #0c3c68;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navbar ul li a {
+    color: rgb(218, 223, 227);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.navbar ul li a:hover {
+    color: #ff851b;
+}
+
+/* Sections */
+section {
+    padding: 60px 0;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Services Section */
+.service-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.service-item {
+    flex: 0 0 45%;
+    margin-bottom: 20px;
+    background-color: rgb(115, 116, 143);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Portfolio Section */
+.portfolio-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.portfolio-item {
+    flex: 0 0 45%;
+    background-color: rgb(111, 139, 165);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Contact Form */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+form input,
+form textarea {
+    margin-bottom: 20px;
+    padding: 15px;
+    font-size: 1rem;
+    border: 1px solid #110a0a;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 15px;
+    background-color: #ff851b;
+    color: rgb(249, 244, 244);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+form button:hover {
+    background-color: #001f3f;
+    color: rgb(206, 162, 162);
+}
+
+/* Footer */
+footer {
+    background-color: #001f3f;
+    color: rgb(191, 61, 61);
+    padding: 20px 0;
+    text-align: center;
+}
